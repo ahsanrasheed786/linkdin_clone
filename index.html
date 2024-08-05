@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkdin</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/script.js"></script>
+</head>
+<body>
+    <main>
+ <nav class="navbar">
+    <div class="navbar-left">
+        <a href="index.html" class="logo"><img src="./assets/images/logo.png"></a>
+
+<div class="search-box">
+    <img src="./assets/images/search.png" >
+    <input type="text" placeholder="Search...">
+</div>
+
+    </div>
+    <div class="navbar-center">
+        <ul><li><a class="active" href="#"><img src="./assets/images/home.png" ><span>Home</span></a></li></ul>
+        <ul><li><a href="#"><img src="./assets/images/network.png" ><span>My Network</span></a></li></ul>
+        <ul><li><a href="#"><img src="./assets/images/jobs.png" ><span>Jobs</span></a></li></ul>
+        <ul><li><a href="#"><img src="./assets/images/message.png" ><span>Messaging</span></a></li></ul>
+        <ul><li><a href="#"><img src="./assets/images/notification.png" ><span>Notifications</span></a></li></ul>
+    </div>
+    <div class="navbar-right " id="profile-menu">
+        <div class="online">
+            <a href="#" ><img class="profile-img"  src="./assets/images/user-1.png" alt=""></a>
+        </div>
+    </div>
+<!-- -----------------------------profile-dropdown------------------------------- -->
+                                    <!-- profile-menu-wrap-opened -->
+ <div class="profile-menu-wrap   "id="profile-menu-wrap" >
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="./assets/images/user-1.png" >
+            <div>
+                <h3>Ahsan Rasheed</h3>
+                <a href="./assets/pages/profile.html">see your profile</a>
+            </div>
+        </div>
+        <hr>
+        <!-- feedback -->
+    <a href="#" class="profile-menu-link">
+    <img src="./assets/images/feedback.png" >
+    <p>Give Feedback</p>
+    <span>></span>
+    </a>
+<!-- setting -->
+<a href="#" class="profile-menu-link">
+    <img src="./assets/images/setting.png" >
+    <p>Setting & Privacy</p>
+    <span>></span>
+    </a>
+<!-- help -->
+    <a href="#" class="profile-menu-link">
+        <img src="./assets/images/help.png" >
+        <p>Help & Support</p>
+        <span>></span>
+        </a>
+        <!-- display and acessbility -->
+        <a href="#" class="profile-menu-link">
+            <img src="./assets/images/display.png" >
+            <p>Display & Accessibiltiy</p>
+            <span>></span>
+            </a>
+            <!-- logout -->
+            <a href="#" class="profile-menu-link">
+                <img src="./assets/images/logout.png" >
+                <p>Logout</p>
+                <span>></span>
+                </a>
+    </div>
+ </div>
+
+ </nav>
+<!-- ----------------------------------Nav-bar ended ---------------------------------- -->
+
+<div class="container">
+    <!-- -------------------------left-sidebar---------------------------------------- -->
+<section class="left-sidebar">
+    <div class="sidebar-profile-box">
+        <img src="./assets/images/cover-pic.png" width="100%" alt="cover">
+        <!-- ------slide bar info------ -->
+        <div class="sidebar-profile-info">
+            <img src="./assets/images/user-1.png" alt="user">
+            <h1>Ahsan Rasheed</h1>
+            <h3>Frontend Developer At TetraTech</h3>
+            <ul>
+                <li>Your Profile Views<span>52</span></li>
+                <li>Your Post  Views <span>347</span></li>
+                <li>Your Connections <span>+500</span></li>
+
+            </ul>
+        </div>
+        <!-- -------sidebar-profile-link--------- -->
+         <div class="sidebar-profile-link">
+            <a href="#"><img src="./assets//images/items.png" alt="">My items</a>
+            <a href="#"><img src="./assets//images/premium.png" alt="">Try Premium</a>
+
+         </div>
+       
+    </div>
+<!-- ---------------------------recently----------------------- -->
+    <div class="sidebar-activity" id="sideBarAcitivity">
+        <h3>Recent Activity</h3>
+        <a href="#"><img src="./assets/images/recent.png" alt="">Web Development</a>
+        <a href="#"><img src="./assets/images/recent.png" alt="">User Interface </a>
+        <a href="#"><img src="./assets/images/recent.png" alt="">Online Learning</a>
+        <a href="#"><img src="./assets/images/recent.png" alt="">Learn Online</a>
+        <a href="#"><img src="./assets/images/recent.png" alt="">Code Better</a>
+        <a href="#"><img src="./assets/images/recent.png" alt="">Group Learning</a>
+        <h3>Groups</h3>
+        <a href="#"><img src="./assets/images/group.png" alt="">Web Design Group</a>
+        <a href="#"><img src="./assets/images/group.png" alt="">Html & CSS Learners </a>
+        <a href="#"><img src="./assets/images/group.png" alt="">Python & JavaScript</a>
+        <a href="#"><img src="./assets/images/group.png" alt="">Learn Online</a>
+        <a href="#"><img src="./assets/images/group.png" alt="">Code Better</a>
+        <h3>HashTag</h3>
+        <a href="#"><img src="./assets/images/hashtag.png" alt="">webdevelopment</a>
+        <a href="#"><img src="./assets/images/hashtag.png" alt="">userinterface</a>
+        <a href="#"><img src="./assets/images/hashtag.png" alt="">Python & JavaScript</a>
+        <a href="#"><img src="./assets/images/hashtag.png" alt="">onlinelearning</a>
+
+        <div class="discover-more-links">
+            <a href="#">Discover More</a>
+        </div>
+     </div>
+     <p id="showMoreLink">Show More <b>+</b></p>
+
+</section>
+    <!-- -------------------------main-content---------------------------------------- -->
+<section class="main-content">
+   <!-- -------------------create-post-------------------  -->
+    <div class="create-post">
+        <div class="create-post-input">
+            <img src="./assets/images/user-1.png" >
+            <textarea  placeholder="Write a post....." rows="2" ></textarea>
+        </div>
+        <div class="create-post-links">
+            <li><img src="./assets/images/photo.png" ></li>
+            <li><img src="./assets/images/video.png" ></li>
+            <li><img src="./assets/images/event.png" ></li>
+            <li>POST</li>
+
+        </div>
+    </div>
+
+    <!-- --------------------------sort-by---------------------------->
+     <div class="sort-by">
+       <hr>
+        <p>Sort By: <span>top <img src="./assets/images/down-arrow.png"  alt="down-arrow"></span></p>
+     </div>
+
+     <!-- -----------------post-1-------------------- -->
+      <div class="post">
+        <div class="post-author">
+            <img src="./assets/images/user-3.png" alt="user">
+            <div>
+                <h1>Benjamin leo</h1>
+                <small>Founder And CEO at Gellelio Groups | Angel Investor</small>
+                <small>2 hours ago</small>
+            </div>
+        </div>
+        <!-- -------------post-content------------- -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad dignissimos, dolor est sed quidem quis cum repellendus in possimus. Nobis, odit dolorem suscipit sapiente natus laboriosam sint accusantium voluptas voluptatibus ipsa. Eius recusandae rerum pariatur optio, fugit accusantium eos?</p>
+        <img src="./assets/images/post-image-1.png" alt="post" width="100%">
+        <div class="post-stats">
+            <div>
+                <img src="./assets//images/thumbsup.png" alt="thumbsup">
+                <img src="./assets//images/love.png" alt="love">
+                <img src="./assets//images/clap.png" alt="clap">
+                 <span class="liked-user">Ali Abbas and 80 others</span>
+            </div>
+            <div>
+                <span>82 comments &middot; 37 shares</span>
+            </div>
+        </div>
+
+        <div class="post-activity">
+            <div>
+                <img src="./assets/images/user-1.png" alt="user-icon" class="post-activity-user-icon">
+                <img src="./assets/images/down-arrow.png" alt="arrow-icon" class="post-activity-arrow-icon">
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/like.png" alt="like-icon">
+                <span>liked</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/comment.png" alt="comment-icon">
+                <span>Commnet</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/share.png" alt="share-icon">
+                <span>Share</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/send.png" alt="send-icon">
+                <span>Send</span>
+            </div>
+        </div>
+      </div>
+       <!-- -----------------post-2-------------------- -->
+       <div class="post">
+        <div class="post-author">
+            <img src="./assets/images/user-4.png" alt="user">
+            <div>
+                <h1>Benjamin leo</h1>
+                <small>Founder And CEO at Gellelio Groups | Angel Investor</small>
+                <small>2 hours ago</small>
+            </div>
+        </div>
+        <!-- -------------post-content------------- -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad dignissimos, dolor est sed quidem quis cum repellendus in possimus. Nobis, odit dolorem suscipit sapiente natus laboriosam sint accusantium voluptas voluptatibus ipsa. Eius recusandae rerum pariatur optio, fugit accusantium eos?</p>
+        <img src="./assets/images/post-image-2.png" alt="post" width="100%">
+        <div class="post-stats">
+            <div>
+                <img src="./assets//images/thumbsup.png" alt="thumbsup">
+                <img src="./assets//images/love.png" alt="love">
+                <img src="./assets//images/clap.png" alt="clap">
+                 <span class="liked-user">Ali Abbas and 80 others</span>
+            </div>
+            <div>
+                <span>82 comments &middot; 37 shares</span>
+            </div>
+        </div>
+
+        <div class="post-activity">
+            <div>
+                <img src="./assets/images/user-1.png" alt="user-icon" class="post-activity-user-icon">
+                <img src="./assets/images/down-arrow.png" alt="arrow-icon" class="post-activity-arrow-icon">
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/like.png" alt="like-icon">
+                <span>liked</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/comment.png" alt="comment-icon">
+                <span>Commnet</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/share.png" alt="share-icon">
+                <span>Share</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/send.png" alt="send-icon">
+                <span>Send</span>
+            </div>
+        </div>
+      </div>
+       <!-- -----------------post-3-------------------- -->
+       <div class="post">
+        <div class="post-author">
+            <img src="./assets/images/user-5.png" alt="user">
+            <div>
+                <h1>Benjamin leo</h1>
+                <small>Founder And CEO at Gellelio Groups | Angel Investor</small>
+                <small>2 hours ago</small>
+            </div>
+        </div>
+        <!-- -------------post-content------------- -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad dignissimos, dolor est sed quidem quis cum repellendus in possimus. Nobis, odit dolorem suscipit sapiente natus laboriosam sint accusantium voluptas voluptatibus ipsa. Eius recusandae rerum pariatur optio, fugit accusantium eos?</p>
+        <img src="./assets/images/post-image-3.png" alt="post" width="100%">
+        <div class="post-stats">
+            <div>
+                <img src="./assets//images/thumbsup.png" alt="thumbsup">
+                <img src="./assets//images/love.png" alt="love">
+                <img src="./assets//images/clap.png" alt="clap">
+                 <span class="liked-user">Ali Abbas and 80 others</span>
+            </div>
+            <div>
+                <span>82 comments &middot; 37 shares</span>
+            </div>
+        </div>
+
+        <div class="post-activity">
+            <div>
+                <img src="./assets/images/user-1.png" alt="user-icon" class="post-activity-user-icon">
+                <img src="./assets/images/down-arrow.png" alt="arrow-icon" class="post-activity-arrow-icon">
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/like.png" alt="like-icon">
+                <span>liked</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/comment.png" alt="comment-icon">
+                <span>Commnet</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/share.png" alt="share-icon">
+                <span>Share</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/send.png" alt="send-icon">
+                <span>Send</span>
+            </div>
+        </div>
+      </div>
+       <!-- -----------------post-4-------------------- -->
+       <div class="post">
+        <div class="post-author">
+            <img src="./assets/images/user-1.png" alt="user">
+            <div>
+                <h1>Benjamin leo</h1>
+                <small>Founder And CEO at Gellelio Groups | Angel Investor</small>
+                <small>2 hours ago</small>
+            </div>
+        </div>
+        <!-- -------------post-content------------- -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad dignissimos, dolor est sed quidem quis cum repellendus in possimus. Nobis, odit dolorem suscipit sapiente natus laboriosam sint accusantium voluptas voluptatibus ipsa. Eius recusandae rerum pariatur optio, fugit accusantium eos?</p>
+        <img src="./assets/images/post-image-4.png" alt="post" width="100%">
+        <div class="post-stats">
+            <div>
+                <img src="./assets//images/thumbsup.png" alt="thumbsup">
+                <img src="./assets//images/love.png" alt="love">
+                <img src="./assets//images/clap.png" alt="clap">
+                 <span class="liked-user">Ali Abbas and 80 others</span>
+            </div>
+            <div>
+                <span>82 comments &middot; 37 shares</span>
+            </div>
+        </div>
+
+        <div class="post-activity">
+            <div>
+                <img src="./assets/images/user-1.png" alt="user-icon" class="post-activity-user-icon">
+                <img src="./assets/images/down-arrow.png" alt="arrow-icon" class="post-activity-arrow-icon">
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/like.png" alt="like-icon">
+                <span>liked</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/comment.png" alt="comment-icon">
+                <span>Commnet</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/share.png" alt="share-icon">
+                <span>Share</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/send.png" alt="send-icon">
+                <span>Send</span>
+            </div>
+        </div>
+      </div>
+       <!-- -----------------post-5-------------------- -->
+       <div class="post">
+        <div class="post-author">
+            <img src="./assets/images/user-2.png" alt="user">
+            <div>
+                <h1>Benjamin leo</h1>
+                <small>Founder And CEO at Gellelio Groups | Angel Investor</small>
+                <small>2 hours ago</small>
+            </div>
+        </div>
+        <!-- -------------post-content------------- -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad dignissimos, dolor est sed quidem quis cum repellendus in possimus. Nobis, odit dolorem suscipit sapiente natus laboriosam sint accusantium voluptas voluptatibus ipsa. Eius recusandae rerum pariatur optio, fugit accusantium eos?</p>
+        <img src="./assets/images/post-image-1.png" alt="post" width="100%">
+        <div class="post-stats">
+            <div>
+                <img src="./assets//images/thumbsup.png" alt="thumbsup">
+                <img src="./assets//images/love.png" alt="love">
+                <img src="./assets//images/clap.png" alt="clap">
+                 <span class="liked-user">Ali Abbas and 80 others</span>
+            </div>
+            <div>
+                <span>82 comments &middot; 37 shares</span>
+            </div>
+        </div>
+
+        <div class="post-activity">
+            <div>
+                <img src="./assets/images/user-1.png" alt="user-icon" class="post-activity-user-icon">
+                <img src="./assets/images/down-arrow.png" alt="arrow-icon" class="post-activity-arrow-icon">
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/like.png" alt="like-icon">
+                <span>liked</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/comment.png" alt="comment-icon">
+                <span>Commnet</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/share.png" alt="share-icon">
+                <span>Share</span>
+            </div>
+            <div class="post-activity-links">
+                <img src="./assets/images/send.png" alt="send-icon">
+                <span>Send</span>
+            </div>
+        </div>
+      </div>
+       
+</section>
+    <!-- -------------------------right-sidebar---------------------------------------- -->
+<section class="right-sidebar">
+
+    <div class="sidebar-news">
+        <img src="./assets/images/more.png" class="info-icon">
+        <h1 >Trending News</h1>
+        <a href="#">High Demand For High Skilled ManPower</a>
+        <span>1d ago $middot; 10,934 readers</span>
+
+        <a href="#">Careers growing horizontally too</a>
+        <span>19h hours $middot; 15,400 readers</span>
+
+        <a href="#">Less Work user for US, more for UK</a>
+        <span>1d ago $middot; 11,000 readers</span>
+
+        <a href="#">More hiring = higher confidance?</a>
+        <span>18h ago $middot; 8,914 readers</span>
+
+        <a href="#">Gautom is world,s thirds richest</a>
+        <span>12h ago $middot; 4,004 readers</span>
+
+        <a href="#" class="read-more-link">Read More</a>
+
+    </div>
+<div class="sidebar-ad">
+    <small>Ad &middot; &middot; &middot;</small>
+    <p>Master the 5 Perciples of Web Design</p>
+        <img src="./assets/images/user-1.png" >
+        <img src="./assets/images/mi-logo.png" >
+        <b>Brand and Demand in Xiaomi</b>
+        <a href="#" class="ad-more-link">Learn more</a>
+</div>
+
+<div class="sidebar-usefull-links">
+    <a href="#">About</a>
+    <a href="#">Accessibiltiy</a>
+    <a href="#">Help Center</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Advirtisting</a>
+    <a href="#">Get the Ad</a>
+    <a href="#">More</a>
+</div>
+
+<div class="copyright-msg">
+    <img src="./assets//images/logo.png" alt="Linkdin-logo">
+    <p>Linkedup &#169; 2024. All Rights reserved</p>
+</div>
+</section>
+
+
+</div>
+
+
+    </main>
+
+    <script>
+        let profile_menu = document.querySelector('#profile-menu');
+        let profile_menu_wrap=document.querySelector('#profile-menu-wrap')
+        profile_menu.onclick = function(){
+            profile_menu_wrap.classList.toggle('profile-menu-wrap-opened');
+        }
+
+        let sidebarActivity= document.querySelector('#sideBarAcitivity');
+        let moreLink = document.querySelector('#showMoreLink');
+      
+
+        moreLink.onclick = function(){
+            let retrnVal =sidebarActivity.classList.toggle('open-activity');
+            if(!retrnVal){
+            moreLink.textContent = "Show More +";
+        } else{
+            moreLink.textContent="Show Less -"
+        }
+        }
+    </script>
+</body>
+</html>
